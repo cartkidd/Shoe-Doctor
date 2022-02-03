@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SingleThought = props => {
+const SingleShoe = props => {
   return (
     <div>
       <div className="card mb-3">
@@ -8,10 +8,10 @@ const SingleThought = props => {
           <span style={{ fontWeight: 700 }} className="text-light">
             Username
           </span>{' '}
-          thought on createdAt
+          shoe on createdAt
         </p>
         <div className="card-body">
-          <p>Thought Text</p>
+          <p>Shoe Text</p>
         </div>
       </div>
     </div>
